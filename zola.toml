@@ -1,0 +1,26 @@
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+# The URL the site will be built for
+base_url = "https://example.com"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = false
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+# highlight_code = false
+
+# Whether to build a search index for the (built-in) search
+build_search_index = false
+
+[extra]
+
+# Put all your custom variables here
+theme = "auto"
+socials = [
+  # Configure socials here
+]
+menu = [
+  # Configure menu bar here
+]
